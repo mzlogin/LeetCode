@@ -6,4 +6,4 @@ LeetCode Problems' Solutions
 
 | #   | Title                                                                                       | Solution                                                                   | Difficulty |
 |-----|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------|
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](./algorithms/cpp/maxmumDepthOfBinaryTree/maxmumDepthOfBinaryTree.cpp) | Easy       |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](./algorithms/cpp/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cpp) | Easy       |
