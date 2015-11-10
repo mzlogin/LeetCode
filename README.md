@@ -9,6 +9,7 @@ LeetCode Problems' Solutions
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                       | [C++](./algorithms/cpp/sameTree/sameTree.cpp)                                 | Easy       |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](./algorithms/cpp/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cpp) | Easy       |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/)                               | [C++](./algorithms/cpp/singleNumber/singleNumber.cpp)                         | Medium     |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [C++](./algorithms/cpp/containsDuplicate/containsDuplicate.cpp)               | Easy       |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                     | [C++](./algorithms/cpp/invertBinaryTree/invertBinaryTree.cpp)                 | Easy       |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [C++](./algorithms/cpp/deleteNodeInALinkedList/deleteNodeInALinkedList.cpp)   | Easy       |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/)                                     | [C++](./algorithms/cpp/addDigits/addDigits.cpp)                               | Easy       |
