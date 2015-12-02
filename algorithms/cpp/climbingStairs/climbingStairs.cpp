@@ -19,9 +19,8 @@ public:
         int a = 1;
         int b = 1;
         for (int i = 2; i <= n; i++) {
-            int c = a;
-            a = b;
-            b += c;
+            b = a + b;
+            a = b - a;
         }
     
         return b;
