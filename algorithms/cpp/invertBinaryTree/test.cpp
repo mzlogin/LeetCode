@@ -52,18 +52,30 @@ bool arrayEqualsVector(int* values, int len, vector<int> vec) {
     return (equalNumCount == len);
 }
 
-TEST_CASE("Invert Binary Tree", "invertBinaryTree") {
+bool checkInvertTree(int* values, int* invertValues, int len) {
     Solution s;
 
-    const int len = 10;
-    int values[len] = {1,2,3,4,5,6,7,8,9,10};
     TreeNode* root = createBinaryTree(values, len, 0);
 
     TreeNode* invertRoot = s.invertTree(root);
 
     vector<int> vec = sequenceTree(root);
 
-    int invertValues[len] = {1,3,2,7,6,5,4,10,9,8};
+    return arrayEqualsVector(invertValues, len, vec);
+}
 
-    CHECK(arrayEqualsVector(invertValues, len, vec));
+TEST_CASE("Invert Binary Tree", "invertBinaryTree") {
+    SECTION("case 1") {
+        const int len = 10;
+        int values[len] = {1,2,3,4,5,6,7,8,9,10};
+        int invertValues[len] = {1,3,2,7,6,5,4,10,9,8};
+        CHECK(checkInvertTree(values, invertValues, len));
+    }
+
+    SECTION("case 2") {
+        const int len = 10;
+        int values[len] = {10,3,9,7,4,5,8,0,21,22};
+        int invertValues[len] = {10,9,3,8,5,4,7,22,21,0};
+        CHECK(checkInvertTree(values, invertValues, len));
+    }
 }
