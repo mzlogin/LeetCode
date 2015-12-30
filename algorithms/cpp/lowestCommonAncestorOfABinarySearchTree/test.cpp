@@ -1,9 +1,9 @@
 #include "../catch.h"
-#include "solution.h"
 
 #include <vector>
 #include <queue>
 using namespace std;
+#include "solution.h"
 
 TreeNode* createBinaryTree(int* values, int len, int pos = 0) {
     TreeNode* node = NULL;
@@ -52,23 +52,12 @@ bool arrayEqualsVector(int* values, int len, vector<int> vec) {
     return (equalNumCount == len);
 }
 
-bool checkInvertTree(int* values, int* invertValues, int len) {
-    Solution s;
+TEST_CASE("Lowest Common Ancestor Of A Binary Search Tree", "lowestCommonAncestorOfABinarySearchTree") {
+    Solution sln;
+    const int len = 15;
+    int nums[len] = {6,2,8,0,4,7,9,-1,-1,3,5,-1,-1,-1,-1};
+    TreeNode* root = createBinaryTree(nums, len);
 
-    TreeNode* root = createBinaryTree(values, len, 0);
-
-    TreeNode* invertRoot = s.invertTree(root);
-
-    vector<int> vec = sequenceTree(root);
-
-    return arrayEqualsVector(invertValues, len, vec);
-}
-
-TEST_CASE("Invert Binary Tree", "invertBinaryTree") {
-    SECTION("case 1") {
-        const int len = 15;
-        int values[len] = {1,2,3,4,5,6,7,8,-1,-1,9,-1,10,-1,-1};
-        int invertValues[len] = {1,3,2,7,6,5,4,-1,-1,10,-1,9,-1,-1,8};
-        CHECK(checkInvertTree(values, invertValues, len));
-    }
+    CHECK(sln.lowestCommonAncestor(root, root->left->right, root->right->right)->val == 6);
+    CHECK(sln.lowestCommonAncestor(root, root->left->left, root->left->right->right)->val == 2);
 }

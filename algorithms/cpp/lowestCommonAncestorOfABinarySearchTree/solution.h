@@ -24,15 +24,14 @@
  * For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another
  * example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of
  * itself according to the LCA definition.
- *
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
  */
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
