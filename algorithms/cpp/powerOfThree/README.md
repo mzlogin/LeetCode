@@ -8,11 +8,11 @@ Voilence way.
 
 In C++, INT\_MAX is 2147483647.
 
-> 3**5 means pow(3,5).
+> 3\*\*5 means pow(3,5).
 
-3**19 < 2147483647 < 3**20
+3\*\*19 < 2147483647 < 3\*\*20
 
-So if x is pow of 3, 3**19 % x == 0.
+So if x is pow of 3, `3**19 % x == 0`.
 
 # Reference
 
