@@ -30,4 +30,5 @@ LeetCode Problems' Solutions
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                                       | [C++](./algorithms/cpp/moveZeroes/solution.h)                              | Easy       |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/)                                                                             | [C++](./algorithms/cpp/nimGame/solution.h)                                 | Easy       |
 | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)                                                                 | [C++](./algorithms/cpp/bullsAndCows/solution.h)                            | Easy       |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                 | [C++](./algorithms/cpp/powerOfThree/solution2.h)                           | Easy       |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                     | [C++](./algorithms/cpp/oddEvenLinkedList/solution.h)                       | Easy       |
