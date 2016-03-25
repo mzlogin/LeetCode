@@ -2,7 +2,7 @@
 
 ## Solution 1
 
-Voilence way.
+Violence way.
 
 ## Solution 2
 

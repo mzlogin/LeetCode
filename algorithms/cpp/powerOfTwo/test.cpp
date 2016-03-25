@@ -1,5 +1,6 @@
 #include "../catch.h"
-#include "solution.h"
+//#include "solution.h"
+#include "solution2.h"
 
 TEST_CASE("Power of Two", "powerOfTwo") {
     Solution sln;
