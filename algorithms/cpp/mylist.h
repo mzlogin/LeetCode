@@ -34,6 +34,14 @@ bool arrayEqualsList(int* nums, int len, ListNode* list) {
     return true;
 }
 
+int getListValueAt(ListNode* root, int pos) {
+    for (int i = 0; i < pos; i++) {
+        root = root->next;
+    }
+
+    return root->val;
+}
+
 void printList(ListNode* list) {
     if (list != NULL) {
         ListNode* p = list;

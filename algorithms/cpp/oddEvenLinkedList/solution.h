@@ -24,12 +24,6 @@
  * The first node is considered odd, the second node even and so on ...
  */
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {

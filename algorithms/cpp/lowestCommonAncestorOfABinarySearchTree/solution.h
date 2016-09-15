@@ -25,12 +25,6 @@
  * example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of
  * itself according to the LCA definition.
  */
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
 
 class Solution {
 public:
