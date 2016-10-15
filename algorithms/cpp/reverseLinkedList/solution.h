@@ -27,4 +27,16 @@ public:
         
         return pPre;
     }
+
+    ListNode* reverseList2(ListNode* head) {
+        if (head == NULL || head->next == NULL) {
+            return head;
+        }
+        
+        ListNode* childHead = reverseList(head->next);
+        head->next->next = head;
+        head->next = NULL;
+        
+        return childHead;
+    }
 };

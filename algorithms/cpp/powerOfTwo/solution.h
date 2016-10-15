@@ -27,4 +27,15 @@ public:
 
         return result;
     }
+
+    /*
+     * Two tips.
+     * 
+     * 1. If n is power of 2, `(n & (n-1)) == 0`.
+     *
+     * 2. Whether n is power of 2 or not, `n & (n-1)` will remove the last 1 in binary n.
+     */
+    bool isPowerOfTwo2(int n) {
+        return (n > 0) && ((n & (n - 1)) == 0);
+    }
 };

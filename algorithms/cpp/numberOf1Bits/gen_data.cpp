@@ -2,7 +2,7 @@
 
 typedef unsigned int uint32_t;
 
-#include "solution2.h"
+#include "solution.h"
 
 int main(int argc, char *argv[]) {
     Solution sln;
