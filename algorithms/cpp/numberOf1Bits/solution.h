@@ -37,11 +37,11 @@ public:
     }
 
     //Steps:
-    //1. Make 2 bits a group, storage 1s in themeself.
-    //2. Make 4 bits a group, storage 1s in themeself.
-    //3. Make 8 bits a group, storage 1s in themeself.
-    //4. Make 16 bits a group, storage 1s in themeself.
-    //5. Make 32 bits a group, storage 1s in themeself.
+    //1. Make 2 bits a group, storage 1s in themself.
+    //2. Make 4 bits a group, storage 1s in themself.
+    //3. Make 8 bits a group, storage 1s in themself.
+    //4. Make 16 bits a group, storage 1s in themself.
+    //5. Make 32 bits a group, storage 1s in themself.
     int hammingWeight3(uint32_t n) {
         n = (n & 0x55555555) + ((n & 0xaaaaaaaa) >> 1);
         n = (n & 0x33333333) + ((n & 0xcccccccc) >> 2);
