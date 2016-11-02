@@ -35,6 +35,7 @@ LeetCode Problems' Solutions
 | 328 | [Odd Even Linked List][328]                           | [C++][328.cpp] | Easy       |
 | 344 | [Reverse String][344]                                 | [C++][344.cpp] | Easy       |
 | 371 | [Sum of Two Integers][371]                            | [C++][371.cpp] | Easy       |
+| 389 | [Find the Difference][389]                            | [C++][389.cpp] | Easy       |
 | 412 | [Fizz Buzz][412]                                      | [C++][412.cpp] | Easy       |
 
 [13]: https://leetcode.com/problems/roman-to-integer/
@@ -95,5 +96,7 @@ LeetCode Problems' Solutions
 [344.cpp]: ./algorithms/cpp/reverseString/solution.h
 [371]: https://leetcode.com/problems/sum-of-two-integers/
 [371.cpp]: ./algorithms/cpp/sumOfTwoIntegers/solution.h
+[389]: https://leetcode.com/problems/find-the-difference/
+[389.cpp]: ./algorithms/cpp/findTheDifference/solution.h
 [412]: https://leetcode.com/problems/fizz-buzz
 [412.cpp]: ./algorithms/cpp/fizzBuzz/solution.h
