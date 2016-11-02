@@ -2,7 +2,19 @@
 
 LeetCode Problems' Solutions
 
-### LeetCode Algorithm
+## Table of Contents
+
+<!-- vim-markdown-toc GFM -->
+* [Problems](#problems)
+    * [Algorithms](#algorithms)
+* [Notes](#notes)
+    * [Frequently used formulas](#frequently-used-formulas)
+
+<!-- vim-markdown-toc -->
+
+## Problems
+
+### Algorithms
 
 | #   | Title                                                 | Solution       | Difficulty |
 |-----|-------------------------------------------------------|----------------|------------|
@@ -37,6 +49,14 @@ LeetCode Problems' Solutions
 | 371 | [Sum of Two Integers][371]                            | [C++][371.cpp] | Easy       |
 | 389 | [Find the Difference][389]                            | [C++][389.cpp] | Easy       |
 | 412 | [Fizz Buzz][412]                                      | [C++][412.cpp] | Easy       |
+
+## Notes
+
+### Frequently used formulas
+
+1. `a ^ b ^ b = a`
+
+2. `a + b = (a ^ b) + ((a & b) << 1)`
 
 [13]: https://leetcode.com/problems/roman-to-integer/
 [13.cpp]: ./algorithms/cpp/romanToInteger/solution.h
