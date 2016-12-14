@@ -49,6 +49,7 @@ LeetCode Problems' Solutions
 | 371 | [Sum of Two Integers][371]                            | [C++][371.cpp] | Easy       |
 | 389 | [Find the Difference][389]                            | [C++][389.cpp] | Easy       |
 | 412 | [Fizz Buzz][412]                                      | [C++][412.cpp] | Easy       |
+| 455 | [Assign Cookies][455]                                 | [C++][455.cpp] | Easy       |
 | 463 | [Island Perimeter][463]                               | [C++][463.cpp] | Easy       |
 
 ## Notes
@@ -121,5 +122,7 @@ LeetCode Problems' Solutions
 [389.cpp]: ./algorithms/cpp/findTheDifference/solution.h
 [412]: https://leetcode.com/problems/fizz-buzz
 [412.cpp]: ./algorithms/cpp/fizzBuzz/solution.h
+[455]: https://leetcode.com/problems/assign-cookies/
+[455.cpp]: ./algorithms/cpp/assignCookies/solution.h
 [463]: https://leetcode.com/problems/island-perimeter/
 [463.cpp]: ./algorithms/cpp/islandPerimeter/solution.h
