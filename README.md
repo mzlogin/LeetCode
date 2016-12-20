@@ -7,8 +7,11 @@ LeetCode Problems' Solutions
 <!-- vim-markdown-toc GFM -->
 * [Problems](#problems)
     * [Algorithms](#algorithms)
+    * [Database](#database)
+    * [Shell](#shell)
 * [Notes](#notes)
     * [Frequently used formulas](#frequently-used-formulas)
+    * [Tips](#tips)
 
 <!-- vim-markdown-toc -->
 
@@ -53,6 +56,10 @@ LeetCode Problems' Solutions
 | 461 | [Hamming Distance][461]                               | [C++][461.cpp] | Easy       |
 | 463 | [Island Perimeter][463]                               | [C++][463.cpp] | Easy       |
 
+### Database
+
+### Shell
+
 ## Notes
 
 ### Frequently used formulas
@@ -60,6 +67,14 @@ LeetCode Problems' Solutions
 1. `a ^ b ^ b = a`
 
 2. `a + b = (a ^ b) + ((a & b) << 1)`
+
+### Tips
+
+1. Remove the last `1` from binary number:
+
+    ```cpp
+    a = a & (a - 1);
+    ```
 
 [13]: https://leetcode.com/problems/roman-to-integer/
 [13.cpp]: ./algorithms/cpp/romanToInteger/solution.h
