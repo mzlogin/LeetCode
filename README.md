@@ -55,6 +55,8 @@ LeetCode Problems' Solutions
 | 455 | [Assign Cookies][455]                                 | [C++][455.cpp] | Easy       |
 | 461 | [Hamming Distance][461]                               | [C++][461.cpp] | Easy       |
 | 463 | [Island Perimeter][463]                               | [C++][463.cpp] | Easy       |
+| 476 | [Number Complement][476]                              | [C++][476.cpp] | Easy       |
+| 617 | [Merge Two Binary Trees][617]                         | [C++][617.cpp] | Easy       |
 
 ### Database
 
@@ -144,3 +146,7 @@ LeetCode Problems' Solutions
 [461.cpp]: ./algorithms/cpp/hammingDistance/solution.h
 [463]: https://leetcode.com/problems/island-perimeter/
 [463.cpp]: ./algorithms/cpp/islandPerimeter/solution.h
+[476]: https://leetcode.com/problems/number-complement/
+[476.cpp]: ./algorithms/cpp/numberComplement/solution.h
+[617]: https://leetcode.com/problems/merge-two-binary-trees/
+[617.cpp]: ./algorithms/cpp/mergeTwoBinaryTrees/solution.h
