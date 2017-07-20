@@ -60,6 +60,10 @@ LeetCode Problems' Solutions
 
 ### Database
 
+| #   | Title                | Solution           | Difficulty |
+|-----|----------------------|--------------------|------------|
+| 595 | [Big Countries][595] | [MySQL][595.mysql] | Easy       |
+
 ### Shell
 
 ## Notes
@@ -148,5 +152,7 @@ LeetCode Problems' Solutions
 [463.cpp]: ./algorithms/cpp/islandPerimeter/solution.h
 [476]: https://leetcode.com/problems/number-complement/
 [476.cpp]: ./algorithms/cpp/numberComplement/solution.h
+[595]: https://leetcode.com/problems/big-countries/
+[595.mysql]: ./database/mysql/bigCountries/README.md
 [617]: https://leetcode.com/problems/merge-two-binary-trees/
 [617.cpp]: ./algorithms/cpp/mergeTwoBinaryTrees/solution.h
