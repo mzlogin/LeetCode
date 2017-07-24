@@ -56,6 +56,7 @@ LeetCode Problems' Solutions
 | 461 | [Hamming Distance][461]                               | [C++][461.cpp] | Easy       |
 | 463 | [Island Perimeter][463]                               | [C++][463.cpp] | Easy       |
 | 476 | [Number Complement][476]                              | [C++][476.cpp] | Easy       |
+| 561 | [Array Partition I][561]                              | [C++][561.cpp] | Easy       |
 | 617 | [Merge Two Binary Trees][617]                         | [C++][617.cpp] | Easy       |
 
 ### Database
@@ -152,6 +153,8 @@ LeetCode Problems' Solutions
 [463.cpp]: ./algorithms/cpp/islandPerimeter/solution.h
 [476]: https://leetcode.com/problems/number-complement/
 [476.cpp]: ./algorithms/cpp/numberComplement/solution.h
+[561]: https://leetcode.com/problems/array-partition-i/
+[561.cpp]: ./algorithms/cpp/arrayPartitionI/solution.h
 [595]: https://leetcode.com/problems/big-countries/
 [595.mysql]: ./database/mysql/bigCountries/README.md
 [617]: https://leetcode.com/problems/merge-two-binary-trees/
