@@ -2,5 +2,7 @@
 .DS_Store
 a.out
 a.exe
-a.out.dSYM/*
+*.out.dSYM/
 *.orig
+*.out
+tags

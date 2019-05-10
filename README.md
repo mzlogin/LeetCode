@@ -5,6 +5,7 @@ LeetCode Problems' Solutions
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
+
 * [Problems](#problems)
     * [Algorithms](#algorithms)
     * [Database](#database)
@@ -12,6 +13,7 @@ LeetCode Problems' Solutions
 * [Notes](#notes)
     * [Frequently used formulas](#frequently-used-formulas)
     * [Tips](#tips)
+* [Notice](#notice)
 
 <!-- vim-markdown-toc -->
 
@@ -83,6 +85,10 @@ LeetCode Problems' Solutions
     ```cpp
     a = a & (a - 1);
     ```
+
+## Notice
+
+The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to add `-std=c++17` to the commandline.
 
 [13]: https://leetcode.com/problems/roman-to-integer/
 [13.cpp]: ./algorithms/cpp/romanToInteger/solution.h
