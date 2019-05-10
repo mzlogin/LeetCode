@@ -61,6 +61,7 @@ LeetCode Problems' Solutions
 | 561 | [Array Partition I][561]                              | [C++][561.cpp] | Easy       |
 | 617 | [Merge Two Binary Trees][617]                         | [C++][617.cpp] | Easy       |
 | 657 | [Judge Route Circle][657]                             | [C++][657.cpp] | Easy       |
+| 709 | [To Lower Case][709]                                  | [C++][709.cpp] | Easy       |
 | 771 | [Jewels and Stones][771]                              | [C++][771.cpp] | Easy       |
 
 ### Database
@@ -169,5 +170,7 @@ The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to a
 [617.cpp]: ./algorithms/cpp/mergeTwoBinaryTrees/solution.h
 [657]: https://leetcode.com/problems/judge-route-circle/
 [657.cpp]: ./algorithms/cpp/judgeRouteCircle/solution.h
+[709]: https://leetcode.com/problems/to-lower-case/
+[709.cpp]: ./algorithms/cpp/toLowerCase/solution.h
 [771]: https://leetcode.com/problems/jewels-and-stones/
 [771.cpp]: ./algorithms/cpp/jewelsAndStones/solution.h
