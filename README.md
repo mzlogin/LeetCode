@@ -176,4 +176,4 @@ The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to a
 [771]: https://leetcode.com/problems/jewels-and-stones/
 [771.cpp]: ./algorithms/cpp/jewelsAndStones/solution.h
 [1021]: https://leetcode.com/problems/remove-outermost-parentheses/
-[1021.cpp]: ./algorithms/cpp/removeOuterMostParentheses/solution.h
+[1021.cpp]: ./algorithms/cpp/removeOutermostParentheses/solution.h
