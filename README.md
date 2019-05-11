@@ -21,48 +21,49 @@ LeetCode Problems' Solutions
 
 ### Algorithms
 
-| #   | Title                                                 | Solution       | Difficulty |
-|-----|-------------------------------------------------------|----------------|------------|
-| 13  | [Roman to Integer][13]                                | [C++][13.cpp]  | Easy       |
-| 21  | [Merge Two Sorted Lists][21]                          | [C++][21.cpp]  | Easy       |
-| 24  | [Swap Nodes in Pairs][24]                             | [C++][24.cpp]  | Easy       |
-| 70  | [Climbing Stairs][70]                                 | [C++][70.cpp]  | Easy       |
-| 83  | [Remove Duplicates from Sorted List][83]              | [C++][83.cpp]  | Easy       |
-| 100 | [Same Tree][100]                                      | [C++][100.cpp] | Easy       |
-| 104 | [Maximum Depth of Binary Tree][104]                   | [C++][104.cpp] | Easy       |
-| 136 | [Single Number][136]                                  | [C++][136.cpp] | Medium     |
-| 169 | [Majority Element][169]                               | [C++][169.cpp] | Easy       |
-| 171 | [Excel Sheet Column Number][171]                      | [C++][171.cpp] | Easy       |
-| 191 | [Number of 1 Bits][191]                               | [C++][191.cpp] | Easy       |
-| 202 | [Happy Number][202]                                   | [C++][202.cpp] | Easy       |
-| 206 | [Reverse Linked List][206]                            | [C++][206.cpp] | Easy       |
-| 217 | [Contains Duplicate][217]                             | [C++][217.cpp] | Easy       |
-| 226 | [Invert Binary Tree][226]                             | [C++][226.cpp] | Easy       |
-| 231 | [Power of Two][231]                                   | [C++][231.cpp] | Easy       |
-| 232 | [Implement Queue using Stacks][232]                   | [C++][232.cpp] | Easy       |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree][235] | [C++][235.cpp] | Easy       |
-| 237 | [Delete Node in a Linked List][237]                   | [C++][237.cpp] | Easy       |
-| 242 | [Valid Anagram][242]                                  | [C++][242.cpp] | Easy       |
-| 258 | [Add Digits][258]                                     | [C++][258.cpp] | Easy       |
-| 263 | [Ugly Number][263]                                    | [C++][263.cpp] | Easy       |
-| 283 | [Move Zeroes][283]                                    | [C++][283.cpp] | Easy       |
-| 292 | [Nim Game][292]                                       | [C++][292.cpp] | Easy       |
-| 299 | [Bulls and Cows][299]                                 | [C++][299.cpp] | Easy       |
-| 326 | [Power of Three][326]                                 | [C++][326.cpp] | Easy       |
-| 328 | [Odd Even Linked List][328]                           | [C++][328.cpp] | Easy       |
-| 344 | [Reverse String][344]                                 | [C++][344.cpp] | Easy       |
-| 371 | [Sum of Two Integers][371]                            | [C++][371.cpp] | Easy       |
-| 389 | [Find the Difference][389]                            | [C++][389.cpp] | Easy       |
-| 412 | [Fizz Buzz][412]                                      | [C++][412.cpp] | Easy       |
-| 455 | [Assign Cookies][455]                                 | [C++][455.cpp] | Easy       |
-| 461 | [Hamming Distance][461]                               | [C++][461.cpp] | Easy       |
-| 463 | [Island Perimeter][463]                               | [C++][463.cpp] | Easy       |
-| 476 | [Number Complement][476]                              | [C++][476.cpp] | Easy       |
-| 561 | [Array Partition I][561]                              | [C++][561.cpp] | Easy       |
-| 617 | [Merge Two Binary Trees][617]                         | [C++][617.cpp] | Easy       |
-| 657 | [Judge Route Circle][657]                             | [C++][657.cpp] | Easy       |
-| 709 | [To Lower Case][709]                                  | [C++][709.cpp] | Easy       |
-| 771 | [Jewels and Stones][771]                              | [C++][771.cpp] | Easy       |
+| #    | Title                                                 | Solution        | Difficulty |
+|------|-------------------------------------------------------|-----------------|------------|
+| 13   | [Roman to Integer][13]                                | [C++][13.cpp]   | Easy       |
+| 21   | [Merge Two Sorted Lists][21]                          | [C++][21.cpp]   | Easy       |
+| 24   | [Swap Nodes in Pairs][24]                             | [C++][24.cpp]   | Easy       |
+| 70   | [Climbing Stairs][70]                                 | [C++][70.cpp]   | Easy       |
+| 83   | [Remove Duplicates from Sorted List][83]              | [C++][83.cpp]   | Easy       |
+| 100  | [Same Tree][100]                                      | [C++][100.cpp]  | Easy       |
+| 104  | [Maximum Depth of Binary Tree][104]                   | [C++][104.cpp]  | Easy       |
+| 136  | [Single Number][136]                                  | [C++][136.cpp]  | Medium     |
+| 169  | [Majority Element][169]                               | [C++][169.cpp]  | Easy       |
+| 171  | [Excel Sheet Column Number][171]                      | [C++][171.cpp]  | Easy       |
+| 191  | [Number of 1 Bits][191]                               | [C++][191.cpp]  | Easy       |
+| 202  | [Happy Number][202]                                   | [C++][202.cpp]  | Easy       |
+| 206  | [Reverse Linked List][206]                            | [C++][206.cpp]  | Easy       |
+| 217  | [Contains Duplicate][217]                             | [C++][217.cpp]  | Easy       |
+| 226  | [Invert Binary Tree][226]                             | [C++][226.cpp]  | Easy       |
+| 231  | [Power of Two][231]                                   | [C++][231.cpp]  | Easy       |
+| 232  | [Implement Queue using Stacks][232]                   | [C++][232.cpp]  | Easy       |
+| 235  | [Lowest Common Ancestor of a Binary Search Tree][235] | [C++][235.cpp]  | Easy       |
+| 237  | [Delete Node in a Linked List][237]                   | [C++][237.cpp]  | Easy       |
+| 242  | [Valid Anagram][242]                                  | [C++][242.cpp]  | Easy       |
+| 258  | [Add Digits][258]                                     | [C++][258.cpp]  | Easy       |
+| 263  | [Ugly Number][263]                                    | [C++][263.cpp]  | Easy       |
+| 283  | [Move Zeroes][283]                                    | [C++][283.cpp]  | Easy       |
+| 292  | [Nim Game][292]                                       | [C++][292.cpp]  | Easy       |
+| 299  | [Bulls and Cows][299]                                 | [C++][299.cpp]  | Easy       |
+| 326  | [Power of Three][326]                                 | [C++][326.cpp]  | Easy       |
+| 328  | [Odd Even Linked List][328]                           | [C++][328.cpp]  | Easy       |
+| 344  | [Reverse String][344]                                 | [C++][344.cpp]  | Easy       |
+| 371  | [Sum of Two Integers][371]                            | [C++][371.cpp]  | Easy       |
+| 389  | [Find the Difference][389]                            | [C++][389.cpp]  | Easy       |
+| 412  | [Fizz Buzz][412]                                      | [C++][412.cpp]  | Easy       |
+| 455  | [Assign Cookies][455]                                 | [C++][455.cpp]  | Easy       |
+| 461  | [Hamming Distance][461]                               | [C++][461.cpp]  | Easy       |
+| 463  | [Island Perimeter][463]                               | [C++][463.cpp]  | Easy       |
+| 476  | [Number Complement][476]                              | [C++][476.cpp]  | Easy       |
+| 561  | [Array Partition I][561]                              | [C++][561.cpp]  | Easy       |
+| 617  | [Merge Two Binary Trees][617]                         | [C++][617.cpp]  | Easy       |
+| 657  | [Judge Route Circle][657]                             | [C++][657.cpp]  | Easy       |
+| 709  | [To Lower Case][709]                                  | [C++][709.cpp]  | Easy       |
+| 771  | [Jewels and Stones][771]                              | [C++][771.cpp]  | Easy       |
+| 1021 | [Remove Outermost Parentheses][1021]                  | [C++][1021.cpp] | Easy       |
 
 ### Database
 
@@ -174,3 +175,5 @@ The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to a
 [709.cpp]: ./algorithms/cpp/toLowerCase/solution.h
 [771]: https://leetcode.com/problems/jewels-and-stones/
 [771.cpp]: ./algorithms/cpp/jewelsAndStones/solution.h
+[1021]: https://leetcode.com/problems/remove-outermost-parentheses/
+[1021.cpp]: ./algorithms/cpp/removeOuterMostParentheses/solution.h
