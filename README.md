@@ -23,6 +23,7 @@ LeetCode Problems' Solutions
 
 | #    | Title                                                 | Solution        | Difficulty |
 |------|-------------------------------------------------------|-----------------|------------|
+| 1    | [Two Sum][1]                                          | [C++][1.cpp]    | Easy       |
 | 13   | [Roman to Integer][13]                                | [C++][13.cpp]   | Easy       |
 | 21   | [Merge Two Sorted Lists][21]                          | [C++][21.cpp]   | Easy       |
 | 24   | [Swap Nodes in Pairs][24]                             | [C++][24.cpp]   | Easy       |
@@ -93,6 +94,8 @@ LeetCode Problems' Solutions
 
 The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to add `-std=c++17` to the commandline.
 
+[1]: https://leetcode.com/problems/two-sum/
+[1.cpp]: ./algorithms/cpp/twoSum/solution.h
 [13]: https://leetcode.com/problems/roman-to-integer/
 [13.cpp]: ./algorithms/cpp/romanToInteger/solution.h
 [21]: https://leetcode.com/problems/merge-two-sorted-lists/

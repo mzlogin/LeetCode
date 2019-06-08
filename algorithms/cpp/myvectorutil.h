@@ -9,7 +9,7 @@ vector<int> createVector(int* nums, int len) {
     return vec;
 }
 
-bool arrayEqualsVector(int* nums, int len, vector<int>& vec) {
+bool arrayEqualsVector(int* nums, int len, vector<int> vec) {
     if (len != vec.size()) {
         return false;
     }
@@ -33,7 +33,7 @@ vector<vector<int> > create2DVector(int* nums, int rows, int cols) {
     return vec;
 }
 
-bool arrayEqualsVector(int* nums, int rows, int cols, vector<vector<int> >& vec) {
+bool arrayEqualsVector(int* nums, int rows, int cols, vector<vector<int> > vec) {
     if (rows != vec.size()) {
         return false;
     }
@@ -51,7 +51,7 @@ bool arrayEqualsVector(int* nums, int rows, int cols, vector<vector<int> >& vec)
 
 // just suit cases can compare with == and !=
 template<typename T>
-bool arrayEqualsVector(T* array, int len, vector<T>& vec) {
+bool arrayEqualsVector(T* array, int len, vector<T> vec) {
     if (len != vec.size()) {
         return false;
     }
