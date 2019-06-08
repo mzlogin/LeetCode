@@ -11,24 +11,20 @@ Please write a SQL query to output movies with an odd numbered ID and a descript
 
 For example, table cinema:
 
-+---------+-----------+--------------+-----------+
-|   id    | movie     |  description |  rating   |
-+---------+-----------+--------------+-----------+
-|   1     | War       |   great 3D   |   8.9     |
-|   2     | Science   |   fiction    |   8.5     |
-|   3     | irish     |   boring     |   6.2     |
-|   4     | Ice song  |   Fantacy    |   8.6     |
-|   5     | House card|   Interesting|   9.1     |
-+---------+-----------+--------------+-----------+
+| id | movie      | description | rating |
+|----|------------|-------------|--------|
+| 1  | War        | great 3D    | 8.9    |
+| 2  | Science    | fiction     | 8.5    |
+| 3  | irish      | boring      | 6.2    |
+| 4  | Ice song   | Fantacy     | 8.6    |
+| 5  | House card | Interesting | 9.1    |
 
 For the example above, the output should be:
 
-+---------+-----------+--------------+-----------+
-|   id    | movie     |  description |  rating   |
-+---------+-----------+--------------+-----------+
-|   5     | House card|   Interesting|   9.1     |
-|   1     | War       |   great 3D   |   8.9     |
-+---------+-----------+--------------+-----------+
+| id | movie      | description | rating |
+|----|------------|-------------|--------|
+| 5  | House card | Interesting | 9.1    |
+| 1  | War        | great 3D    | 8.9    |
 
 ## Solution
 
