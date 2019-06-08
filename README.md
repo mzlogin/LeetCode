@@ -68,10 +68,11 @@ LeetCode Problems' Solutions
 
 ### Database
 
-| #   | Title                | Solution           | Difficulty |
-|-----|----------------------|--------------------|------------|
-| 595 | [Big Countries][595] | [MySQL][595.mysql] | Easy       |
-| 627 | [Swap Salary][627]   | [MySQL][627.mysql] | Easy       |
+| #   | Title                    | Solution           | Difficulty |
+|-----|--------------------------|--------------------|------------|
+| 595 | [Big Countries][595]     | [MySQL][595.mysql] | Easy       |
+| 620 | [Not Boring Movies][620] | [MySQL][620.mysql] | Easy       |
+| 627 | [Swap Salary][627]       | [MySQL][627.mysql] | Easy       |
 
 ### Shell
 
@@ -93,7 +94,7 @@ LeetCode Problems' Solutions
 
 ## Notice
 
-The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to add `-std=c++17` to the commandline.
+The C++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to add `-std=c++17` to the commandline.
 
 [1]: https://leetcode.com/problems/two-sum/
 [1.cpp]: ./algorithms/cpp/twoSum/solution.h
@@ -173,6 +174,8 @@ The c++ test suite Catch2 needs c++1x, so when build test.cpp, don't forget to a
 [595.mysql]: ./database/mysql/bigCountries/README.md
 [617]: https://leetcode.com/problems/merge-two-binary-trees/
 [617.cpp]: ./algorithms/cpp/mergeTwoBinaryTrees/solution.h
+[620]: https://leetcode.com/problems/not-boring-movies/
+[620.mysql]: ./database/mysql/notBoringMovies/README.md
 [627]: https://leetcode.com/problems/swap-salary/
 [627.mysql]: ./database/mysql/swapSalary/README.md
 [657]: https://leetcode.com/problems/judge-route-circle/
